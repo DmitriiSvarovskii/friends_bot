@@ -5,8 +5,8 @@ import os
 
 from aiogram import Bot, Dispatcher
 
-from src.config import settings
-from src.handlers import router as main_router
+from config import settings
+from handlers import router as main_router
 
 
 sys.path.insert(0, os.path.abspath(
